@@ -8248,7 +8248,7 @@ var SS_PATCH = {
     },
     Snom: {
         types: ['Ice', 'Bug'],
-        bs: { hp: 30, at: 25, df: 35, sa: 45, sd: 30, sp: 100 },
+        bs: { hp: 30, at: 25, df: 35, sa: 45, sd: 30, sp: 150 },
         weightkg: 3.8,
         abilities: { 0: 'Shield Dust' },
         nfe: true
