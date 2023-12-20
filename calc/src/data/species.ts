@@ -8518,7 +8518,7 @@ const SS_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Snom: {
     types: ['Ice', 'Bug'],
-    bs: {hp: 30, at: 25, df: 35, sa: 45, sd: 30, sp: 20},
+    bs: {hp: 30, at: 25, df: 35, sa: 45, sd: 30, sp: 200},
     weightkg: 3.8,
     abilities: {0: 'Shield Dust'},
     nfe: true,
