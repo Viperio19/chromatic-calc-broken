@@ -10090,6 +10090,21 @@ const CHROMATIC_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 29,
     abilities: {0: 'Compound Eyes'},
   },
+  'Alcremie-Mega-Gmax': {
+    types: ['Fairy'],
+    bs: {hp: 65, at: 80, df: 105, sa: 130, sd: 141, sp: 74},
+    weightkg: 245.6,
+    abilities: {0: 'Aroma Veil'},
+    baseSpecies: 'Alcremie',
+  },
+  'Dummy-Aevian': {
+    types: ['Poison', 'Ground'],
+    bs: {hp: 55, at: 45, df: 45, sa: 25, sd: 25, sp: 15},
+    weightkg: 11,
+    abilities: {0: 'Poison Point'},
+    baseSpecies: 'Dummy',
+    nfe: true,
+  },
 };
 
 const SV: {[name: string]: SpeciesData} = extend(true, {}, SS, SV_PATCH, PLA_PATCH, CHROMATIC_PATCH);
